@@ -34,14 +34,7 @@ export default function App() {
               <Route path="/explore" element={<Explore />} />
               <Route path="/country/:code" element={<CountryDetail />} />
               <Route path="/guides" element={<Guides />} />
-              <Route
-                path="/saved"
-                element={
-                  <ProtectedRoute>
-                    <Saved />
-                  </ProtectedRoute>
-                }
-              />
+              <Route path="/saved" element={<Saved />} />
               <Route
                 path="/profile"
                 element={
