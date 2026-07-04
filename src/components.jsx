@@ -231,9 +231,11 @@ export function Footer() {
             CHANGE
           </span>
           <span>Built for explorers</span>
-          <span className="absolute right-3 bottom-1 opacity-5 text-[9px] sm:text-[10px] font-light text-parchment-50 pointer-events-none select-none">
-            Abdul Azeem
-          </span>
+          <div className="absolute inset-x-0 bottom-0 flex justify-end pr-3 pb-1 pointer-events-none">
+            <span className="whitespace-nowrap opacity-5 text-[9px] sm:text-[10px] font-light text-parchment-50 select-none">
+              Abdul Azeem
+            </span>
+          </div>
         </div>
       </div>
     </footer>
